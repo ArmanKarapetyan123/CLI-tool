@@ -15,3 +15,13 @@ Options:
   -g , --greeting <value>  greeting message (default: "Hello")
   --language <value>        the language of the greeting (default: "english")
   -h, --help               display help for command
+
+  Example of expected result
+  
+node index.js --name John --level 2
+Output:
+Hello, John! (Date and Time: 2024-01-01 12:34:56)
+
+node index.js -n Bob --greeting "Hey, welcome to Node js school" -lvl 1
+Output:
+Hey, welcome to Node js school Bob.
